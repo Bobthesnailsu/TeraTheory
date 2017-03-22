@@ -545,9 +545,9 @@ treeJSON = d3.json("flare.json", function(error, treeData) {
     root.y0 = 0;
   
   	// Collapse all children of roots children before rendering.
-	root.children.forEach(function(child){
-		collapse(child);
-	});
+	//root.children.forEach(function(child){
+	//	collapse(child);
+	//});
 
     // Layout the tree initially and center on the root node.
     update(root);
